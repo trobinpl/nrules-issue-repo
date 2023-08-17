@@ -1,0 +1,12 @@
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\bin\Debug\net7.0\IssueTest.Domain.deps.json
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\bin\Debug\net7.0\IssueTest.Domain.dll
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\bin\Debug\net7.0\IssueTest.Domain.pdb
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\IssueTest.Domain.csproj.AssemblyReference.cache
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\IssueTest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\IssueTest.Domain.AssemblyInfoInputs.cache
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\IssueTest.Domain.AssemblyInfo.cs
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\IssueTest.Domain.csproj.CoreCompileInputs.cache
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\IssueTest.Domain.dll
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\refint\IssueTest.Domain.dll
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\IssueTest.Domain.pdb
+D:\Projekty\_opensource\nrules-test\IssueTest.Domain\obj\Debug\net7.0\ref\IssueTest.Domain.dll

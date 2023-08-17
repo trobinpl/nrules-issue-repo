@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WPflzmGCMiZ52iOtR879pG6IgxwjidHWVvvkYonPmIUnuUdhLu+gKc1kTvOpQN9RNF/WhZvMptDddtpT1pGQFQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Rules\\IssueTest.Rules.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Trobin\\.nuget\\packages\\nrules\\0.9.3\\nrules.0.9.3.nupkg.sha512",
+    "C:\\Users\\Trobin\\.nuget\\packages\\nrules.fluent\\0.9.3\\nrules.fluent.0.9.3.nupkg.sha512",
+    "C:\\Users\\Trobin\\.nuget\\packages\\nrules.rulemodel\\0.9.3\\nrules.rulemodel.0.9.3.nupkg.sha512",
+    "C:\\Users\\Trobin\\.nuget\\packages\\nrules.runtime\\0.9.3\\nrules.runtime.0.9.3.nupkg.sha512"
+  ],
+  "logs": []
+}

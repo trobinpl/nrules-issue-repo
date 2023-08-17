@@ -1,0 +1,228 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "NRules/0.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NRules.Fluent": "[0.9.3]",
+          "NRules.Runtime": "[0.9.3]"
+        }
+      },
+      "NRules.Fluent/0.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NRules.RuleModel": "[0.9.3]"
+        },
+        "compile": {
+          "lib/netstandard2.1/NRules.Fluent.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.Fluent.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NRules.RuleModel/0.9.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/NRules.RuleModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.RuleModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NRules.Runtime/0.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NRules.RuleModel": "[0.9.3]"
+        },
+        "compile": {
+          "lib/netstandard2.1/NRules.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "IssueTest.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/IssueTest.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IssueTest.Domain.dll": {}
+        }
+      },
+      "IssueTest.Rules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "IssueTest.Domain": "1.0.0",
+          "NRules": "0.9.3"
+        },
+        "compile": {
+          "bin/placeholder/IssueTest.Rules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IssueTest.Rules.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NRules/0.9.3": {
+      "sha512": "+wztFDoaBIZUh5lCLZUgAl27uW0Oiihn7a2X1VcTWfVmDEIjaKBL23QR6wrJTXyqVtqWZy5Sm3xajvdxAPEwqg==",
+      "type": "package",
+      "path": "nrules/0.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "nrules.0.9.3.nupkg.sha512",
+        "nrules.nuspec"
+      ]
+    },
+    "NRules.Fluent/0.9.3": {
+      "sha512": "bjS0ljxQpYKOX1iNAPfgNVVZot0NIT2u3To0IayWXg8oBTCe5o4Q6BiuvDyMKw77TvMHZ9lR/Q0WLHRuLmvV4w==",
+      "type": "package",
+      "path": "nrules.fluent/0.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NRules.Fluent.dll",
+        "lib/netstandard2.0/NRules.Fluent.pdb",
+        "lib/netstandard2.0/NRules.Fluent.xml",
+        "lib/netstandard2.1/NRules.Fluent.dll",
+        "lib/netstandard2.1/NRules.Fluent.pdb",
+        "lib/netstandard2.1/NRules.Fluent.xml",
+        "nrules.fluent.0.9.3.nupkg.sha512",
+        "nrules.fluent.nuspec"
+      ]
+    },
+    "NRules.RuleModel/0.9.3": {
+      "sha512": "4i6AJPUOt1r5Y3/rmZ5o8cbVikzve9E3ya31hhApjFGhKVQvEh2WDFA6D5dEZHtIeERVjuK+N6lVJAwpenfHDg==",
+      "type": "package",
+      "path": "nrules.rulemodel/0.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NRules.RuleModel.dll",
+        "lib/netstandard2.0/NRules.RuleModel.pdb",
+        "lib/netstandard2.0/NRules.RuleModel.xml",
+        "lib/netstandard2.1/NRules.RuleModel.dll",
+        "lib/netstandard2.1/NRules.RuleModel.pdb",
+        "lib/netstandard2.1/NRules.RuleModel.xml",
+        "nrules.rulemodel.0.9.3.nupkg.sha512",
+        "nrules.rulemodel.nuspec"
+      ]
+    },
+    "NRules.Runtime/0.9.3": {
+      "sha512": "8Qy52e4yJ1Z7cFCORjg6pyU9r+/cy+/NbDvIGENkQzS4d4JmOJS5wspK5/UZIVLnLm7tOkpcZ2bCFHyJMpdOAQ==",
+      "type": "package",
+      "path": "nrules.runtime/0.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NRules.dll",
+        "lib/netstandard2.0/NRules.pdb",
+        "lib/netstandard2.0/NRules.xml",
+        "lib/netstandard2.1/NRules.dll",
+        "lib/netstandard2.1/NRules.pdb",
+        "lib/netstandard2.1/NRules.xml",
+        "nrules.runtime.0.9.3.nupkg.sha512",
+        "nrules.runtime.nuspec"
+      ]
+    },
+    "IssueTest.Domain/1.0.0": {
+      "type": "project",
+      "path": "../IssueTest.Domain/IssueTest.Domain.csproj",
+      "msbuildProject": "../IssueTest.Domain/IssueTest.Domain.csproj"
+    },
+    "IssueTest.Rules/1.0.0": {
+      "type": "project",
+      "path": "../IssueTest.Rules/IssueTest.Rules.csproj",
+      "msbuildProject": "../IssueTest.Rules/IssueTest.Rules.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "IssueTest.Domain >= 1.0.0",
+      "IssueTest.Rules >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Trobin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Console\\IssueTest.Console.csproj",
+      "projectName": "IssueTest.Console",
+      "projectPath": "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Console\\IssueTest.Console.csproj",
+      "packagesPath": "C:\\Users\\Trobin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Trobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Domain\\IssueTest.Domain.csproj": {
+              "projectPath": "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Domain\\IssueTest.Domain.csproj"
+            },
+            "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Rules\\IssueTest.Rules.csproj": {
+              "projectPath": "D:\\Projekty\\_opensource\\nrules-test\\IssueTest.Rules\\IssueTest.Rules.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

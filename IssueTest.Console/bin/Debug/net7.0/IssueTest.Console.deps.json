@@ -1,0 +1,115 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "IssueTest.Console/1.0.0": {
+        "dependencies": {
+          "IssueTest.Domain": "1.0.0",
+          "IssueTest.Rules": "1.0.0"
+        },
+        "runtime": {
+          "IssueTest.Console.dll": {}
+        }
+      },
+      "NRules/0.9.3": {
+        "dependencies": {
+          "NRules.Fluent": "0.9.3",
+          "NRules.Runtime": "0.9.3"
+        }
+      },
+      "NRules.Fluent/0.9.3": {
+        "dependencies": {
+          "NRules.RuleModel": "0.9.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.Fluent.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
+          }
+        }
+      },
+      "NRules.RuleModel/0.9.3": {
+        "runtime": {
+          "lib/netstandard2.1/NRules.RuleModel.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
+          }
+        }
+      },
+      "NRules.Runtime/0.9.3": {
+        "dependencies": {
+          "NRules.RuleModel": "0.9.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
+          }
+        }
+      },
+      "IssueTest.Domain/1.0.0": {
+        "runtime": {
+          "IssueTest.Domain.dll": {}
+        }
+      },
+      "IssueTest.Rules/1.0.0": {
+        "dependencies": {
+          "IssueTest.Domain": "1.0.0",
+          "NRules": "0.9.3"
+        },
+        "runtime": {
+          "IssueTest.Rules.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IssueTest.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NRules/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+wztFDoaBIZUh5lCLZUgAl27uW0Oiihn7a2X1VcTWfVmDEIjaKBL23QR6wrJTXyqVtqWZy5Sm3xajvdxAPEwqg==",
+      "path": "nrules/0.9.3",
+      "hashPath": "nrules.0.9.3.nupkg.sha512"
+    },
+    "NRules.Fluent/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bjS0ljxQpYKOX1iNAPfgNVVZot0NIT2u3To0IayWXg8oBTCe5o4Q6BiuvDyMKw77TvMHZ9lR/Q0WLHRuLmvV4w==",
+      "path": "nrules.fluent/0.9.3",
+      "hashPath": "nrules.fluent.0.9.3.nupkg.sha512"
+    },
+    "NRules.RuleModel/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4i6AJPUOt1r5Y3/rmZ5o8cbVikzve9E3ya31hhApjFGhKVQvEh2WDFA6D5dEZHtIeERVjuK+N6lVJAwpenfHDg==",
+      "path": "nrules.rulemodel/0.9.3",
+      "hashPath": "nrules.rulemodel.0.9.3.nupkg.sha512"
+    },
+    "NRules.Runtime/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Qy52e4yJ1Z7cFCORjg6pyU9r+/cy+/NbDvIGENkQzS4d4JmOJS5wspK5/UZIVLnLm7tOkpcZ2bCFHyJMpdOAQ==",
+      "path": "nrules.runtime/0.9.3",
+      "hashPath": "nrules.runtime.0.9.3.nupkg.sha512"
+    },
+    "IssueTest.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IssueTest.Rules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\bin\Debug\net7.0\IssueTest.Rules.deps.json
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\bin\Debug\net7.0\IssueTest.Rules.dll
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\bin\Debug\net7.0\IssueTest.Rules.pdb
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\bin\Debug\net7.0\IssueTest.Domain.dll
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\bin\Debug\net7.0\IssueTest.Domain.pdb
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.csproj.AssemblyReference.cache
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.AssemblyInfoInputs.cache
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.AssemblyInfo.cs
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.csproj.CoreCompileInputs.cache
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.csproj.CopyComplete
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.dll
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\refint\IssueTest.Rules.dll
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\IssueTest.Rules.pdb
+D:\Projekty\_opensource\nrules-test\IssueTest.Rules\obj\Debug\net7.0\ref\IssueTest.Rules.dll
